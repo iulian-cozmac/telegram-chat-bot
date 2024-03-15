@@ -2,7 +2,7 @@ from telegram import *
 from telegram.ext import *
 from asyncio import *
 
-TOKEN = '7143131853:AAFa574cYWgECGSldJVDtcnhYC3vwmRziOs'
+TOKEN = 'your toke here'
 
 async def confirm_age(update: Update, context: CallbackContext):
     keyboard = [
